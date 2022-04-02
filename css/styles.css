@@ -1,0 +1,199 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+  }
+  :root{
+    --first-title-coolor: #FFFFFF;
+    --second-titl-color: #212121;
+    --text-color:   #757575;
+    --hover-kolor:#2196F3;
+    --background-color:#2F303A;
+
+  }
+  .body{
+    font-family:"Roboto",sans-serif ;
+  }
+  /*-------------HEADER----------*/
+  .header-logo {
+    ont-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+  }
+  .hero-button{
+    font-family: 'Roboto',sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196F3;
+  }
+  .hero-footer-content{
+    background-color:var(--background-color);
+  }
+
+  .header-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;;
+  }
+
+.header-contact
+  {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+  }
+
+.header-contact:hover,
+.header-contact:focus,
+.header-link:hover,
+.header-link :focus
+{
+color:var( --hover-kolor);
+}
+/*----------HERO----------*/
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.hero-button{
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87; 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+/*подивитися в репети кнопку*/
+}
+/*----------strategy---------*/
+
+.strategy-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+
+}
+.strategy-text{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*-------ABOUT--------*/
+.about-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+/*----------TEAM------*/
+.team-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-after-title{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+  /*--------footer-------*/
+  .footer-logo{
+ font-family: 'Raleway',sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height:1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+  }
+
+  .footer-link{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+  }
+  .footer-contact{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+
+  }
+  /*--------main----------*/
+  .maim-batton{
+    font-family: 'Roboto',sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+background-color: #F5F4FA;
+  }
+  .main-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+  }
+  .main-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+  }
+
